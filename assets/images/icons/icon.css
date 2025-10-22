@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+.icon-light-switch {
+  mask-image: url(lightSwitch.svg);
+  -webkit-mask-image: url(lightSwitch.svg);
+}
+
+.icon-dark-switch {
+  mask-image: url(darkSwitch.svg);
+  -webkit-mask-image: url(darkSwitch.svg);
+}
+.icon-star {
+  mask-image: url(star.svg);
+  -webkit-mask-image: url(star.svg);
+}
+.icon-arrow {
+  mask-image: url(arrow.svg);
+  -webkit-mask-image: url(arrow.svg);
+}
+.icon-comfortable {
+  mask-image: url(comfortable.svg);
+  -webkit-mask-image: url(comfortable.svg);
+}
+.icon-forward {
+  mask-image: url(forward.svg);
+  -webkit-mask-image: url(forward.svg);
+}
+.icon-material {
+  mask-image: url(material.svg);
+  -webkit-mask-image: url(material.svg);
+}
+.icon-arrow-down{
+    mask-image: url(arrow-down.svg);
+  -webkit-mask-image: url(arrow-down.svg);
+}

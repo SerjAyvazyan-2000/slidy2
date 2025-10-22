@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Slidy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-body G-align-center">
+            <div class="header-tools G-align-center">
+              <a href="index.html" class="header-logo G-flex">
+                <img
+                  data-src="photo.svg"
+                  loading="lazy"
+                  src="assets/images/logo.svg"
+                  data-light="assets/images/logo.svg"
+                  data-dark="assets/images/logo-dark.svg"
+                  alt="logo"
+                />
+              </a>
+              <div class="header-switch G-align-center">
+                <i class="icon icon-light-switch"></i>
+                <i class="icon icon-dark-switch"></i>
+              </div>
+            </div>
+
+            <div class="header-actions G-align-center">
+              <button class="btn-login">Вход</button>
+              <button class="btn-register">
+                <span class="desktop-block">Попробовать бесплатно</span>
+                <span class="mobile-block">Регистрация</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="hero-section">
+          <div class="container">
+            <div class="hero-body">
+              <div class="hero-titles G-flex-column">
+                <h1>
+                  <span class="mobile-text-wrap">Нейросеть</span> для
+                  <span class="text-blue">генерации</span>
+                  <span class="text-wrap">презентаций</span>
+                </h1>
+                <p>
+                  Создавайте впечатляющие презентации
+                  <span class="mobile-text-wrap">с новым ИИ-помощником</span>
+                </p>
+                <i class="icon icon-star"></i>
+
+                <button class="btn-start hero-btn G-align-center">
+                  <i class="icon icon-arrow"></i>
+                  <span>Начать бесплатно</span>
+                </button>
+              </div>
+
+              <div class="hero-media G-flex">
+                <img
+                  data-src="photo.webp"
+                  loading="lazy"
+                  class="img-desktop"
+                  src="assets/images/heroMedia.webp"
+                  data-light="assets/images/heroMedia.webp"
+                  data-dark="assets/images/heroMedia-dark.webp"
+                  alt="photo"
+                />
+
+                <img
+                  data-src="photo.webp"
+                  loading="lazy"
+                  class="img-mobile"
+                  src="assets/images/heroMediaMobile.webp"
+                  data-light="assets/images/heroMediaMobile.webp"
+                  data-dark="assets/images/heroMediaMobile-dark.webp"
+                  alt="photo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-bg G-flex">
+            <img
+              src="assets/images/heroBg.webp"
+              data-src="photo.webp"
+              loading="lazy"
+              data-light="assets/images/heroBg.webp"
+              data-dark="assets/images/heroBg-dark.webp"
+              alt="photo"
+            />
+          </div>
+        </section>
+
+        <section class="presentation-section section">
+          <div class="container">
+            <div class="presentation-body">
+              <div class="section-titles">
+                <h2>Презентация <span class="text-blue">за секунды</span></h2>
+                <p>
+                  Процесс, который раньше занимал <span class="mobile-text-wrap">полдня, теперь займёт
+                  считанные</span> мгновения
+                </p>
+              </div>
+              <div class="block-cnt">
+                <div class="presentation-columns G-flex-column">
+                  <div class="presentation-column G-flex">
+                    <div class="presentation-text-item">
+                      <div class="presentation-item-titles G-align-center">
+                        <img
+                          data-src="photo.png"
+                          loading="lazy"
+                          src="assets/images/bulb.png"
+                          alt="photo"
+                        />
+                        <h3 class="block-title">Начните с идеи</h3>
+                      </div>
+                      <p class="block-text">
+                        Добавляйте, редактируйте и меняйте слайды. Нейросеть
+                        поможет создать презентацию с нуля за пару минут
+                      </p>
+                    </div>
+                    <div class="presentation-img-item G-flex">
+                      <img
+                        data-src="photo.webp"
+                        loading="lazy"
+                        class="img-desktop"
+                        src="assets/images/presentationImg.webp"
+                        data-light="assets/images/presentationImg.webp"
+                        data-dark="assets/images/presentationImg-dark.webp"
+                        alt="photo"
+                      />
+                      <img
+                        data-src="photo.webp"
+                        loading="lazy"
+                        class="img-mobile"
+                        src="assets/images/presentationImgMobile.webp"
+                        data-light="assets/images/presentationImgMobile.webp"
+                        data-dark="assets/images/presentationImg-dark.webp"
+                        alt="photo"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="presentation-column G-flex">
+                    <div class="presentation-img-item G-flex">
+                      <img
+                        data-src="photo.webp"
+                        loading="lazy"
+                        class="img-desktop"
+                        src="assets/images/presentationImg2.webp"
+                        data-light="assets/images/presentationImg2.webp"
+                        data-dark="assets/images/presentationImg2-dark2.webp"
+                        alt="photo"
+                      />
+                      <img
+                        data-src="photo.webp"
+                        loading="lazy"
+                        class="img-mobile"
+                        src="assets/images/presentationImg2Mobile.webp"
+                        data-light="assets/images/presentationImg2Mobile.webp"
+                        data-dark="assets/images/presentationImg2Mobile-dark2.webp"
+                        alt="photo"
+                      />
+                    </div>
+
+                    <div class="presentation-text-item">
+                      <div class="presentation-item-titles G-align-center">
+                        <img
+                          data-src="photo.png"
+                          loading="lazy"
+                          src="assets/images/Pencil.png"
+                          alt="photo"
+                        />
+                        <h3 class="block-title">Редактируйте, как хотите</h3>
+                      </div>
+                      <p class="block-text">
+                        Только полезные инструменты. Для новых пользователей
+                        подготовили гайд-обучение по функционалу
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="presentation-column G-flex">
+                    <div class="presentation-text-item">
+                      <div class="presentation-item-titles G-align-center">
+                        <img
+                          data-src="photo.png"
+                          loading="lazy"
+                          src="assets/images/Camera.png"
+                          alt="photo"
+                        />
+                        <h3 class="block-title">И даже меняйте картинки</h3>
+                      </div>
+                      <p class="block-text">
+                        Нейросеть автоматически добавит
+                        <span class="desktop-text-wrap"
+                          >нужный контент, вам останется</span
+                        >
+                        только отредактировать детали
+                      </p>
+                    </div>
+                    <div class="presentation-img-item G-flex">
+                      <img
+                        data-src="photo.webp"
+                        loading="lazy"
+                        src="assets/images/presentationImg3.webp"
+                        data-light="assets/images/presentationImg3.webp"
+                        data-dark="assets/images/presentationImg-dark3.webp"
+                        alt="photo"
+                        class="img-desktop"
+                      />
+
+                      <img
+                        data-src="photo.webp"
+                        loading="lazy"
+                        class="img-mobile"
+                        src="assets/images/presentationImg3Mobile.webp"
+                        data-light="assets/images/presentationImg3Mobile.webp"
+                        data-dark="assets/images/presentationImg3Mobile-dark3.webp"
+                        alt="photo"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button class="btn-start presentation-btn G-align-center">
+                <i class="icon icon-arrow"></i>
+                <span>Начать бесплатно</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="advantages-section section">
+          <div class="container">
+            <div class="advantages-body">
+              <div class="section-titles">
+                <h2>
+                  ТОП-3 <span class="text-blue">преимуществ</span>
+                  <span class="mobile-text-wrap">Slidy AI</span>
+                </h2>
+                <p>
+                  Сервис сочетает в себе мощь
+                  <span class="mobile-text-wrap"
+                    >искусственного интеллекта и удобство</span
+                  >
+                  классического редактора
+                </p>
+              </div>
+              <div class="block-cnt">
+                <div class="advantages-swiper swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="advantage-slide">
+                        <div class="advantage-slide-img G-flex">
+                          <img
+                            data-src="photo.webp"
+                            loading="lazy"
+                            class="img-desktop"
+                            data-light="assets/images/advantageSlideImg1.webp"
+                            data-dark="assets/images/advantageSlideImg1-dark.webp"
+                            alt="photo"
+                            src="assets/images/advantageSlideImg1.webp"
+                          />
+
+                          <img
+                            data-src="photo.webp"
+                            loading="lazy"
+                            class="img-mobile"
+                            data-light="assets/images/advantageSlideImg1Mobile.webp"
+                            data-dark="assets/images/advantageSlideImg1Mobile-dark.webp"
+                            alt="photo"
+                            src="assets/images/advantageSlideImg1Mobile.webp"
+                          />
+                        </div>
+
+                        <div class="advantage-slide-texts">
+                          <h3 class="block-title">ИИ-структура</h3>
+                          <p class="block-text">
+                            Нейросеть сама генерирует логичный план презентации,
+                            разбитый на ключевые разделы
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="advantage-slide">
+                        <div class="advantage-slide-img G-flex">
+                          <img
+                            data-src="photo.webp"
+                            loading="lazy"
+                            data-light="assets/images/advantageSlideImg2.webp"
+                            data-dark="assets/images/advantageSlideImg2-dark.webp"
+                            alt="photo"
+                            src="assets/images/advantageSlideImg2.webp"
+                          />
+                        </div>
+
+                        <div class="advantage-slide-texts">
+                          <h3 class="block-title">Авто-контент</h3>
+                          <p class="block-text">
+                            Напишет релевантные тезисы, заголовки и «разумные»
+                            тексты для каждого слайда
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="advantage-slide">
+                        <div class="advantage-slide-img G-flex">
+                          <img
+                            data-src="photo.webp"
+                            loading="lazy"
+                            data-light="assets/images/advantageSlideImg3.webp"
+                            data-dark="assets/images/advantageSlideImg3-dark.webp"
+                            alt="photo"
+                            src="assets/images/advantageSlideImg3.webp"
+                          />
+                        </div>
+
+                        <div class="advantage-slide-texts">
+                          <h3 class="block-title">Полный контроль</h3>
+                          <p class="block-text">
+                            Используйте интуитивно понятный редактор, который
+                            работает так же, как ваши любимые инструменты
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="advantages-swiper-pagination swiper-pagination"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="how-work-section section">
+          <div class="container">
+            <div class="how-work-body">
+              <div class="section-titles">
+                <h2>Как это работает?</h2>
+                <p>
+                  Показываем основные шаги работы
+                  <span class="mobile-text-wrap"
+                    >с нейросетью на понятном примере</span
+                  >
+                </p>
+              </div>
+
+              <div class="how-work-cnt block-cnt">
+                <div class="how-work-video">
+                  <video src=""></video>
+
+                  <div class="play-btn G-flex">
+                    <img
+                      data-src="photo.svg"
+                      loading="lazy"
+                      data-light="assets/images/playButton.svg"
+                      data-dark="assets/images/playButton-dark.svg"
+                      alt="photo"
+                      src="assets/images/playButton.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="generate-section section">
+          <div class="container">
+            <div class="generate-body">
+              <div class="section-titles">
+                <h2>
+                  Генерируйте
+                  <span class="mobile-text-wrap"
+                    >даже <span class="text-blue">с телефона!</span></span
+                  >
+                </h2>
+                <p>
+                  Больше не нужно быть привязанным
+                  <span class="mobile-text-wrap"
+                    >к компьютеру, чтобы подготовить </span
+                  >презентацию
+                </p>
+              </div>
+
+              <div class="generete-mockup-mobile G-flex">
+                <img
+                  data-src="photo.webp"
+                  loading="lazy"
+                  data-light="assets/images/Mockup.webp"
+                  data-dark="assets/images/Mockup-dark.webp"
+                  alt="photo"
+                  src="assets/images/Mockup.webp"
+                />
+              </div>
+
+              <div class="generate-cnt">
+                <div class="generate-info">
+                  <div class="generate-info-header">
+                    <div class="generate-info-title">
+                      <img
+                        data-src="photo.png"
+                        loading="lazy"
+                        alt="photo"
+                        src="assets/images/fire.png"
+                      />
+                      <h3><span>В любое время,</span> в любом месте</h3>
+                    </div>
+                    <p>
+                      Одинаково эффективна как для учёбы, так и для бизнес-задач
+                      или творческих проектов
+                    </p>
+                  </div>
+
+                  <div class="generate-info-tags G-flex-column">
+                    <div class="generate-tag G-align-center">
+                      <div class="generate-tag-icon G-center">
+                        <i class="icon icon-comfortable"></i>
+                      </div>
+                      <p>Удобный интерфейс</p>
+                    </div>
+
+                    <div class="generate-tag G-align-center">
+                      <div class="generate-tag-icon G-center">
+                        <i class="icon icon-forward"></i>
+                      </div>
+                      <p>Удобный интерфейс</p>
+                    </div>
+                    <div class="generate-tag G-align-center">
+                      <div class="generate-tag-icon G-center">
+                        <i class="icon icon-material"></i>
+                      </div>
+                      <p>Без рекламы</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="generete-mockup G-flex">
+                  <img
+                    data-src="photo.webp"
+                    loading="lazy"
+                    data-light="assets/images/Mockup.webp"
+                    data-dark="assets/images/Mockup-dark.webp"
+                    alt="photo"
+                    src="assets/images/Mockup.webp"
+                  />
+                </div>
+
+                <div class="generete-dropDown G-flex">
+                  <img
+                    data-src="photo.webp"
+                    loading="lazy"
+                    class="img-desktop"
+                    data-light="assets/images/dropDown.webp"
+                    data-dark="assets/images/dropDown-dark.webp"
+                    alt="photo"
+                    src="assets/images/dropDown.webp"
+                  />
+
+                  <img
+                    data-src="photo.webp"
+                    class="img-mobile"
+                    loading="lazy"
+                    data-light="assets/images/dropDownMobile.webp"
+                    data-dark="assets/images/dropDownMobile-dark.webp"
+                    alt="photo"
+                    src="assets/images/dropDownMobile.webp"
+                  />
+                </div>
+                <div class="generete-person G-flex">
+                  <img
+                    data-src="photo.webp"
+                    loading="lazy"
+                    data-light="assets/images/person.webp"
+                    data-dark="assets/images/person-dark.webp"
+                    alt="photo"
+                    src="assets/images/person.webp"
+                  />
+                </div>
+
+                <div class="generete-smail G-flex">
+                  <img
+                    data-src="photo.webp"
+                    loading="lazy"
+                    data-light="assets/images/genereteSmall.webp"
+                    data-dark="assets/images/genereteSmall-dark.webp"
+                    alt="photo"
+                    src="assets/images/genereteSmall.webp"
+                  />
+                </div>
+              </div>
+
+              <button class="btn-start generate-btn G-align-center">
+                <i class="icon icon-arrow"></i>
+                <span>Начать бесплатно</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews-section section">
+          <div class="container">
+            <div class="reviews-body">
+              <div class="section-titles">
+                <h2>Десятки мнений <span class="mobile-text-wrap">о сервисе</span></h2>
+                <p>Честные комментарии пользователей <span class="mobile-text-wrap">о сервисе</span></p>
+              </div>
+
+              <div class="reviews-items block-cnt">
+                <div class="reviews-item">
+                  <div class="reviews-item-header G-align-start">
+                    <div class="reviews-author-info G-align-center">
+                      <div class="author-avatar G-flex">
+                        <img
+                          data-src="photo.webp"
+                          loading="lazy"
+                          alt="photo"
+                          src="assets/images/avatar.webp"
+                        />
+                      </div>
+                      <div class="author-titles">
+                        <div class="author-name G-align-center">
+                          <h4>Елена К.</h4>
+                          <img
+                            data-src="photo.png"
+                            loading="lazy"
+                            src="assets/images/iconDecor.png"
+                            data-light="assets/images/iconDecor.png"
+                            data-dark="assets/images/iconDecor-dark.png"
+                            alt="photo"
+                          />
+                        </div>
+                        <p class="author-contact">@elenaspeaker</p>
+                      </div>
+                    </div>
+
+                    <div class="reviews-author-specialist">Бизнес-тренер</div>
+                  </div>
+
+                  <div class="reviews-texts">
+                    <p>
+                      Последняя версия
+                      <a class="text-blue" href="#">@slidy.ai</a> просто спасла
+                      меня перед большим вебинаром! Нужна была презентация
+                      на 20 слайдов за час. AI-структура + Авто-контент —
+                      это магия. Раньше я бы не уснула.
+                    </p>
+                    <p>Must have для тех, кто работает с контентом!</p>
+                  </div>
+
+                  <span class="reviews-data">Oct 10, 2025</span>
+                </div>
+
+                <div class="reviews-item">
+                  <div class="reviews-item-header G-align-start">
+                    <div class="reviews-author-info G-align-center">
+                      <div class="author-avatar G-flex">
+                        <img
+                          data-src="photo.webp"
+                          loading="lazy"
+                          alt="photo"
+                          src="assets/images/avatar2.webp"
+                        />
+                      </div>
+                      <div class="author-titles">
+                        <div class="author-name G-align-center">
+                          <h4>Костюм4ик</h4>
+                          <img
+                            data-src="photo.png"
+                            loading="lazy"
+                            src="assets/images/iconDecor.png"
+                            data-light="assets/images/iconDecor.png"
+                            data-dark="assets/images/iconDecor-dark.png"
+                            alt="photo"
+                          />
+                        </div>
+                        <p class="author-contact">@veressss</p>
+                      </div>
+                    </div>
+
+                    <div class="reviews-author-specialist">Дизайнер</div>
+                  </div>
+
+                  <div class="reviews-texts">
+                    <p>
+                      Обновила портфолио в <a class="text-blue" href="#"
+                        >@slidy.ai</a
+                      > за один вечер! AI подобрал стиль под мой бренд,
+                      сгенерировал описания проектов. Выглядит как работа
+                      профессионального дизайнера — только в 10 раз быстрее!
+                    </p>
+                    <p>Теперь он мой фаворит</p>
+                  </div>
+
+                  <span class="reviews-data">Oct 10, 2025</span>
+                </div>
+
+                <div class="reviews-item">
+                  <div class="reviews-item-header G-align-start">
+                    <div class="reviews-author-info G-align-center">
+                      <div class="author-avatar G-flex">
+                        <img
+                          data-src="photo.webp"
+                          loading="lazy"
+                          alt="photo"
+                          src="assets/images/avatar3.webp"
+                        />
+                      </div>
+                      <div class="author-titles">
+                        <div class="author-name G-align-center">
+                          <h4>Мэри джейн на море</h4>
+                          <img
+                            data-src="photo.png"
+                            loading="lazy"
+                            src="assets/images/iconDecor.png"
+                            data-light="assets/images/iconDecor.png"
+                            data-dark="assets/images/iconDecor-dark.png"
+                            alt="photo"
+                          />
+                        </div>
+                        <p class="author-contact">@titaniumex4</p>
+                      </div>
+                    </div>
+
+                    <div class="reviews-author-specialist">SMM</div>
+                  </div>
+
+                  <div class="reviews-texts">
+                    <p>
+                      Как же круто, что теперь можно генерировать презентации
+                      прямо с телефона! Сидела в очереди, быстро накидала
+                      контент-план на неделю в виде слайдов, отправила клиенту.
+                    </p>
+                  </div>
+
+                  <span class="reviews-data">Oct 09, 2025</span>
+                </div>
+
+                <div class="reviews-item">
+                  <div class="reviews-item-header G-align-start">
+                    <div class="reviews-author-info G-align-center">
+                      <div class="author-avatar G-flex">
+                        <img
+                          data-src="photo.webp"
+                          loading="lazy"
+                          alt="photo"
+                          src="assets/images/avatar6.webp"
+                        />
+                      </div>
+                      <div class="author-titles">
+                        <div class="author-name G-align-center">
+                          <h4>Майк</h4>
+                          <img
+                            data-src="photo.png"
+                            loading="lazy"
+                            src="assets/images/iconDecor.png"
+                            data-light="assets/images/iconDecor.png"
+                            data-dark="assets/images/iconDecor-dark.png"
+                            alt="photo"
+                          />
+                        </div>
+                        <p class="author-contact">@mike29</p>
+                      </div>
+                    </div>
+
+                    <div class="reviews-author-specialist">Инвестор</div>
+                  </div>
+
+                  <div class="reviews-texts">
+                    <p>
+                      Требовалась быстрая сводная презентация по рынку.
+                      AI-структура сразу расставила акценты.
+                    </p>
+                  </div>
+
+                  <span class="reviews-data">Oct 05, 2025</span>
+                </div>
+
+                <div class="reviews-item">
+                  <div class="reviews-item-header G-align-start">
+                    <div class="reviews-author-info G-align-center">
+                      <div class="author-avatar G-flex">
+                        <img
+                          data-src="photo.webp"
+                          loading="lazy"
+                          alt="photo"
+                          src="assets/images/avatar5.webp"
+                        />
+                      </div>
+                      <div class="author-titles">
+                        <div class="author-name G-align-center">
+                          <h4>Иван Иванео</h4>
+                          <img
+                            data-src="photo.png"
+                            loading="lazy"
+                            src="assets/images/iconDecor.png"
+                            data-light="assets/images/iconDecor.png"
+                            data-dark="assets/images/iconDecor-dark.png"
+                            alt="photo"
+                          />
+                        </div>
+                        <p class="author-contact">@ivanproduct</p>
+                      </div>
+                    </div>
+
+                    <div class="reviews-author-specialist">Аналитик</div>
+                  </div>
+
+                  <div class="reviews-texts">
+                    <p>
+                      Дизайн-системы — это хорошо, но мне нужны быстрые, чистые
+                      слайды с графиками.
+                      <a class="text-blue" href="#">@slidy.ai</a> отлично
+                      справляется с визуализацией сухих данных. Наконец‑то
+                      не стыдно показать отчёты руководству. Рекомендую!
+                    </p>
+                  </div>
+
+                  <span class="reviews-data">Oct 08, 2025</span>
+                </div>
+
+                <div class="reviews-item">
+                  <div class="reviews-item-header G-align-start">
+                    <div class="reviews-author-info G-align-center">
+                      <div class="author-avatar G-flex">
+                        <img
+                          data-src="photo.webp"
+                          loading="lazy"
+                          alt="photo"
+                          src="assets/images/avatar4.webp"
+                        />
+                      </div>
+                      <div class="author-titles">
+                        <div class="author-name G-align-center">
+                          <h4>Самый стильный</h4>
+                          <img
+                            data-src="photo.png"
+                            loading="lazy"
+                            src="assets/images/iconDecor.png"
+                            data-light="assets/images/iconDecor.png"
+                            data-dark="assets/images/iconDecor-dark.png"
+                            alt="photo"
+                          />
+                        </div>
+                        <p class="author-contact">@eroceros</p>
+                      </div>
+                    </div>
+
+                    <div class="reviews-author-specialist">Студент</div>
+                  </div>
+
+                  <div class="reviews-texts">
+                    <p>
+                      Готовить защиту диплома было бы адом, если бы не @slidy.ai
+                    </p>
+                  </div>
+
+                  <span class="reviews-data">Oct 08, 2025</span>
+                </div>
+
+                <div class="reviews-item">
+                  <div class="reviews-item-header G-align-start">
+                    <div class="reviews-author-info G-align-center">
+                      <div class="author-avatar G-flex">
+                        <img
+                          data-src="photo.webp"
+                          loading="lazy"
+                          alt="photo"
+                          src="assets/images/avatar9.webp"
+                        />
+                      </div>
+                      <div class="author-titles">
+                        <div class="author-name G-align-center">
+                          <h4>Erkan Tecim</h4>
+                          <img
+                            data-src="photo.png"
+                            loading="lazy"
+                            src="assets/images/iconDecor.png"
+                            data-light="assets/images/iconDecor.png"
+                            data-dark="assets/images/iconDecor-dark.png"
+                            alt="photo"
+                          />
+                        </div>
+                        <p class="author-contact">@dev_Dev_devil</p>
+                      </div>
+                    </div>
+
+                    <div class="reviews-author-specialist">Разработчик</div>
+                  </div>
+
+                  <div class="reviews-texts">
+                    <p>
+                      Признаюсь, всегда ненавидел делать слайды. Вставил код,
+                      ввёл тезисы — и презентация готова. Авто-контент идеально
+                      работает с техническими данными.
+                    </p>
+                    <p>
+                      Вы красавчики,
+                      <a class="text-blue" href="#">@slidy.ai!</a>
+                    </p>
+                  </div>
+
+                  <span class="reviews-data">Oct 01, 2025</span>
+                </div>
+
+                <div class="reviews-item">
+                  <div class="reviews-item-header G-align-start">
+                    <div class="reviews-author-info G-align-center">
+                      <div class="author-avatar G-flex">
+                        <img
+                          data-src="photo.webp"
+                          loading="lazy"
+                          alt="photo"
+                          src="assets/images/avatar7.webp"
+                        />
+                      </div>
+                      <div class="author-titles">
+                        <div class="author-name G-align-center">
+                          <h4>Лесенка</h4>
+                        </div>
+                        <p class="author-contact">@alice_of_spades</p>
+                      </div>
+                    </div>
+
+                    <div class="reviews-author-specialist">
+                      Продакт-менеджер
+                    </div>
+                  </div>
+
+                  <div class="reviews-texts">
+                    <p>
+                      Сгенерировали 5 вариантов питч-дека за вечер, проверили,
+                      какой лучше заходит. Скорость и качество в одном флаконе.
+                      Огромное спасибо команде!
+                    </p>
+                  </div>
+
+                  <span class="reviews-data">Oct 05, 2025</span>
+                </div>
+
+                <div class="reviews-item">
+                  <div class="reviews-item-header G-align-start">
+                    <div class="reviews-author-info G-align-center">
+                      <div class="author-avatar G-flex">
+                        <img
+                          data-src="photo.webp"
+                          loading="lazy"
+                          alt="photo"
+                          src="assets/images/avatar8.webp"
+                        />
+                      </div>
+                      <div class="author-titles">
+                        <div class="author-name G-align-center">
+                          <h4>Просто хороший</h4>
+                        </div>
+                        <p class="author-contact">@manlesspr0b</p>
+                      </div>
+                    </div>
+
+                    <div class="reviews-author-specialist">
+                      Top-tier Designer
+                    </div>
+                  </div>
+
+                  <div class="reviews-texts">
+                    <p>
+                      Постоянно в движении. Функция «Генерируйте с телефона» –
+                      просто спасение. Готовлю конспект выступления прямо
+                      на ходу. Удобный интерфейс, никаких тормозов.
+                    </p>
+                  </div>
+
+                  <span class="reviews-data">Oct 04, 2025</span>
+                </div>
+              </div>
+              <div class="reviews-mobile-slider">
+                <div class="reviews-swiper swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="reviews-item">
+                        <div class="reviews-item-header G-align-start">
+                          <div class="reviews-author-info G-align-center">
+                            <div class="author-avatar G-flex">
+                              <img
+                                data-src="photo.webp"
+                                loading="lazy"
+                                alt="photo"
+                                src="assets/images/avatar.webp"
+                              />
+                            </div>
+                            <div class="author-titles">
+                              <div class="author-name G-align-center">
+                                <h4>Елена К.</h4>
+                                <img
+                                  data-src="photo.png"
+                                  loading="lazy"
+                                  src="assets/images/iconDecor.png"
+                                  data-light="assets/images/iconDecor.png"
+                                  data-dark="assets/images/iconDecor-dark.png"
+                                  alt="photo"
+                                />
+                              </div>
+                              <p class="author-contact">@elenaspeaker</p>
+                            </div>
+                          </div>
+
+                          <div class="reviews-author-specialist">
+                            Бизнес-тренер
+                          </div>
+                        </div>
+
+                        <div class="reviews-texts">
+                          <p>
+                            Последняя версия
+                            <a class="text-blue" href="#">@slidy.ai</a> просто
+                            спасла меня перед большим вебинаром! Нужна была
+                            презентация на 20 слайдов за час. AI-структура +
+                            Авто-контент — это магия. Раньше я бы не уснула.
+                          </p>
+                          <p>Must have для тех, кто работает с контентом!</p>
+                        </div>
+
+                        <span class="reviews-data">Oct 10, 2025</span>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="reviews-item">
+                        <div class="reviews-item-header G-align-start">
+                          <div class="reviews-author-info G-align-center">
+                            <div class="author-avatar G-flex">
+                              <img
+                                data-src="photo.webp"
+                                loading="lazy"
+                                alt="photo"
+                                src="assets/images/avatar2.webp"
+                              />
+                            </div>
+                            <div class="author-titles">
+                              <div class="author-name G-align-center">
+                                <h4>Костюм4ик</h4>
+                                <img
+                                  data-src="photo.png"
+                                  loading="lazy"
+                                  src="assets/images/iconDecor.png"
+                                  data-light="assets/images/iconDecor.png"
+                                  data-dark="assets/images/iconDecor-dark.png"
+                                  alt="photo"
+                                />
+                              </div>
+                              <p class="author-contact">@veressss</p>
+                            </div>
+                          </div>
+
+                          <div class="reviews-author-specialist">Дизайнер</div>
+                        </div>
+
+                        <div class="reviews-texts">
+                          <p>
+                            Обновила портфолио в <a class="text-blue" href="#"
+                              >@slidy.ai</a
+                            > за один вечер! AI подобрал стиль под мой бренд,
+                            сгенерировал описания проектов. Выглядит как работа
+                            профессионального дизайнера — только
+                            в 10 раз быстрее!
+                          </p>
+                          <p>Теперь он мой фаворит</p>
+                        </div>
+
+                        <span class="reviews-data">Oct 10, 2025</span>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="reviews-item">
+                        <div class="reviews-item-header G-align-start">
+                          <div class="reviews-author-info G-align-center">
+                            <div class="author-avatar G-flex">
+                              <img
+                                data-src="photo.webp"
+                                loading="lazy"
+                                alt="photo"
+                                src="assets/images/avatar3.webp"
+                              />
+                            </div>
+                            <div class="author-titles">
+                              <div class="author-name G-align-center">
+                                <h4>Мэри джейн на море</h4>
+                                <img
+                                  data-src="photo.png"
+                                  loading="lazy"
+                                  src="assets/images/iconDecor.png"
+                                  data-light="assets/images/iconDecor.png"
+                                  data-dark="assets/images/iconDecor-dark.png"
+                                  alt="photo"
+                                />
+                              </div>
+                              <p class="author-contact">@titaniumex4</p>
+                            </div>
+                          </div>
+
+                          <div class="reviews-author-specialist">SMM</div>
+                        </div>
+
+                        <div class="reviews-texts">
+                          <p>
+                            Как же круто, что теперь можно генерировать
+                            презентации прямо с телефона! Сидела в очереди,
+                            быстро накидала контент-план на неделю в виде
+                            слайдов, отправила клиенту.
+                          </p>
+                        </div>
+
+                        <span class="reviews-data">Oct 09, 2025</span>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="reviews-item">
+                        <div class="reviews-item-header G-align-start">
+                          <div class="reviews-author-info G-align-center">
+                            <div class="author-avatar G-flex">
+                              <img
+                                data-src="photo.webp"
+                                loading="lazy"
+                                alt="photo"
+                                src="assets/images/avatar6.webp"
+                              />
+                            </div>
+                            <div class="author-titles">
+                              <div class="author-name G-align-center">
+                                <h4>Майк</h4>
+                                <img
+                                  data-src="photo.png"
+                                  loading="lazy"
+                                  src="assets/images/iconDecor.png"
+                                  data-light="assets/images/iconDecor.png"
+                                  data-dark="assets/images/iconDecor-dark.png"
+                                  alt="photo"
+                                />
+                              </div>
+                              <p class="author-contact">@mike29</p>
+                            </div>
+                          </div>
+
+                          <div class="reviews-author-specialist">Инвестор</div>
+                        </div>
+
+                        <div class="reviews-texts">
+                          <p>
+                            Требовалась быстрая сводная презентация по рынку.
+                            AI-структура сразу расставила акценты.
+                          </p>
+                        </div>
+
+                        <span class="reviews-data">Oct 05, 2025</span>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="reviews-item">
+                        <div class="reviews-item-header G-align-start">
+                          <div class="reviews-author-info G-align-center">
+                            <div class="author-avatar G-flex">
+                              <img
+                                data-src="photo.webp"
+                                loading="lazy"
+                                alt="photo"
+                                src="assets/images/avatar5.webp"
+                              />
+                            </div>
+                            <div class="author-titles">
+                              <div class="author-name G-align-center">
+                                <h4>Иван Иванео</h4>
+                                <img
+                                  data-src="photo.png"
+                                  loading="lazy"
+                                  src="assets/images/iconDecor.png"
+                                  data-light="assets/images/iconDecor.png"
+                                  data-dark="assets/images/iconDecor-dark.png"
+                                  alt="photo"
+                                />
+                              </div>
+                              <p class="author-contact">@ivanproduct</p>
+                            </div>
+                          </div>
+
+                          <div class="reviews-author-specialist">Аналитик</div>
+                        </div>
+
+                        <div class="reviews-texts">
+                          <p>
+                            Дизайн-системы — это хорошо, но мне нужны быстрые,
+                            чистые слайды с графиками.
+                            <a class="text-blue" href="#">@slidy.ai</a> отлично
+                            справляется с визуализацией сухих данных. Наконец‑то
+                            не стыдно показать отчёты руководству. Рекомендую!
+                          </p>
+                        </div>
+
+                        <span class="reviews-data">Oct 08, 2025</span>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="reviews-item">
+                        <div class="reviews-item-header G-align-start">
+                          <div class="reviews-author-info G-align-center">
+                            <div class="author-avatar G-flex">
+                              <img
+                                data-src="photo.webp"
+                                loading="lazy"
+                                alt="photo"
+                                src="assets/images/avatar4.webp"
+                              />
+                            </div>
+                            <div class="author-titles">
+                              <div class="author-name G-align-center">
+                                <h4>Самый стильный</h4>
+                                <img
+                                  data-src="photo.png"
+                                  loading="lazy"
+                                  src="assets/images/iconDecor.png"
+                                  data-light="assets/images/iconDecor.png"
+                                  data-dark="assets/images/iconDecor-dark.png"
+                                  alt="photo"
+                                />
+                              </div>
+                              <p class="author-contact">@eroceros</p>
+                            </div>
+                          </div>
+
+                          <div class="reviews-author-specialist">Студент</div>
+                        </div>
+
+                        <div class="reviews-texts">
+                          <p>
+                            Готовить защиту диплома было бы адом,
+                            если бы не @slidy.ai
+                          </p>
+                        </div>
+
+                        <span class="reviews-data">Oct 08, 2025</span>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="reviews-item">
+                        <div class="reviews-item-header G-align-start">
+                          <div class="reviews-author-info G-align-center">
+                            <div class="author-avatar G-flex">
+                              <img
+                                data-src="photo.webp"
+                                loading="lazy"
+                                alt="photo"
+                                src="assets/images/avatar9.webp"
+                              />
+                            </div>
+                            <div class="author-titles">
+                              <div class="author-name G-align-center">
+                                <h4>Erkan Tecim</h4>
+                                <img
+                                  data-src="photo.png"
+                                  loading="lazy"
+                                  src="assets/images/iconDecor.png"
+                                  data-light="assets/images/iconDecor.png"
+                                  data-dark="assets/images/iconDecor-dark.png"
+                                  alt="photo"
+                                />
+                              </div>
+                              <p class="author-contact">@dev_Dev_devil</p>
+                            </div>
+                          </div>
+
+                          <div class="reviews-author-specialist">
+                            Разработчик
+                          </div>
+                        </div>
+
+                        <div class="reviews-texts">
+                          <p>
+                            Признаюсь, всегда ненавидел делать слайды. Вставил
+                            код, ввёл тезисы — и презентация готова.
+                            Авто-контент идеально работает с техническими
+                            данными.
+                          </p>
+                          <p>
+                            Вы красавчики,
+                            <a class="text-blue" href="#">@slidy.ai!</a>
+                          </p>
+                        </div>
+
+                        <span class="reviews-data">Oct 01, 2025</span>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="reviews-item">
+                        <div class="reviews-item-header G-align-start">
+                          <div class="reviews-author-info G-align-center">
+                            <div class="author-avatar G-flex">
+                              <img
+                                data-src="photo.webp"
+                                loading="lazy"
+                                alt="photo"
+                                src="assets/images/avatar7.webp"
+                              />
+                            </div>
+                            <div class="author-titles">
+                              <div class="author-name G-align-center">
+                                <h4>Лесенка</h4>
+                              </div>
+                              <p class="author-contact">@alice_of_spades</p>
+                            </div>
+                          </div>
+
+                          <div class="reviews-author-specialist">
+                            Продакт-менеджер
+                          </div>
+                        </div>
+
+                        <div class="reviews-texts">
+                          <p>
+                            Сгенерировали 5 вариантов питч-дека за вечер,
+                            проверили, какой лучше заходит. Скорость и качество
+                            в одном флаконе. Огромное спасибо команде!
+                          </p>
+                        </div>
+
+                        <span class="reviews-data">Oct 05, 2025</span>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="reviews-item">
+                        <div class="reviews-item-header G-align-start">
+                          <div class="reviews-author-info G-align-center">
+                            <div class="author-avatar G-flex">
+                              <img
+                                data-src="photo.webp"
+                                loading="lazy"
+                                alt="photo"
+                                src="assets/images/avatar8.webp"
+                              />
+                            </div>
+                            <div class="author-titles">
+                              <div class="author-name G-align-center">
+                                <h4>Просто хороший</h4>
+                              </div>
+                              <p class="author-contact">@manlesspr0b</p>
+                            </div>
+                          </div>
+
+                          <div class="reviews-author-specialist">
+                            Top-tier Designer
+                          </div>
+                        </div>
+
+                        <div class="reviews-texts">
+                          <p>
+                            Постоянно в движении. Функция «Генерируйте
+                            с телефона» – просто спасение. Готовлю конспект
+                            выступления прямо на ходу. Удобный интерфейс,
+                            никаких тормозов.
+                          </p>
+                        </div>
+
+                        <span class="reviews-data">Oct 04, 2025</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="reviews-swiper-pagination swiper-pagination"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="trust-section section">
+          <div class="container">
+            <div class="trust-body">
+              <div class="section-titles">
+                <h2>
+                  Лучший <span class="text-blue">помощник</span> <span class="mobile-text-wrap">для презентаций</span>
+                </h2>
+                <p>От идеи до слайда в одно нажатие</p>
+              </div>
+
+              <div class="trust-cnt block-cnt">
+                <div class="trust-info-header">
+                  <div class="trust-info-title">
+                    <img
+                      data-src="photo.png"
+                      loading="lazy"
+                      alt="photo"
+                      src="assets/images/smail2.png"
+                    />
+                    <h3><span> Более 2 млн.</span> пользователей</h3>
+                  </div>
+                  <p>
+                    И миллион причин начать прямо сейчас. Станьте частью нашего
+                    комьюнити прямо сейчас
+                  </p>
+
+                  <button class="btn-start trust-btn G-align-center">
+                    <i class="icon icon-arrow"></i>
+                    <span>Начать бесплатно</span>
+                  </button>
+                </div>
+
+                <div class="trust-bg G-flex">
+                  <img
+                    data-src="photo.webp"
+                    loading="lazy"
+                    class="trust-bg-desktop"
+                    src="assets/images/trustBg.webp"
+                    data-light="assets/images/trustBg.webp"
+                    data-dark="assets/images/trustBg-dark.webp"
+                    alt="photo"
+                  />
+                  <img
+                    data-src="photo.webp"
+                    loading="lazy"
+                    class="trust-bg-mobile"
+                    src="assets/images/trustBgMobile.webp"
+                    data-light="assets/images/trustBgMobile.webp"
+                    data-dark="assets/images/trustBgMobile-dark.webp"
+                    alt="photo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq" class="faq-section section">
+          <div class="container">
+            <div class="section-titles">
+              <h2>FAQ</h2>
+              <p>
+                Ваши вопросы, на которые мы нашли
+                <span class="mobile-text-wrap">простые ответы</span>
+              </p>
+            </div>
+            <div class="faq-content block-cnt G-flex-column">
+              <div class="often-asks-item active">
+                <div class="asks-item-header G-justify-between">
+                  <p>Что такое Slidy AI?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub">
+                  Slidery AI — это нейросетевой инструмент
+                  для автоматизированного создания презентаций. Пользователь
+                  загружает текст или основные тезисы, после чего нейросеть
+                  генерирует профессионально оформленные слайды с продуманной
+                  структурой и дизайном.
+                </div>
+              </div>
+
+              <div class="often-asks-item">
+                <div class="asks-item-header G-justify-between">
+                  <p>Как работает Slidy AI?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub"></div>
+              </div>
+
+              <div class="often-asks-item">
+                <div class="asks-item-header G-justify-between">
+                  <p>Нужно ли мне разбираться в дизайне?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub"></div>
+              </div>
+
+              <div class="often-asks-item">
+                <div class="asks-item-header G-justify-between">
+                  <p>Можно ли редактировать презентации после генерации?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub"></div>
+              </div>
+
+              <div class="often-asks-item">
+                <div class="asks-item-header G-justify-between">
+                  <p>Как добавлять свои изображения и видео?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub"></div>
+              </div>
+
+              <div class="often-asks-item">
+                <div class="asks-item-header G-justify-between">
+                  <p>Есть ли готовые шаблоны?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub"></div>
+              </div>
+
+              <div class="often-asks-item">
+                <div class="asks-item-header G-justify-between">
+                  <p>Поддерживаются ли анимации?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub"></div>
+              </div>
+
+              <div class="often-asks-item">
+                <div class="asks-item-header G-justify-between">
+                  <p>На каких устройствах работает Slidy AI?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub"></div>
+              </div>
+
+              <div class="often-asks-item">
+                <div class="asks-item-header G-justify-between">
+                  <p>Можно ли экспортировать презентации в PowerPoint?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub"></div>
+              </div>
+
+              <div class="often-asks-item">
+                <div class="asks-item-header G-justify-between">
+                  <p>Есть ли интеграции с другими сервисами?</p>
+                  <div class="asks-list-icon G-center">
+                    <i class="icon icon-arrow-down"></i>
+                  </div>
+                </div>
+                <div class="asks-list-sub"></div>
+              </div>
+            
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-body G-align-start">
+            <div class="footer-column G-flex-column">
+              <p class="footer-text">
+                По всем вопросам, связанным с работой сервиса, вы можете
+                связаться с нами по электронной почте:
+                <a href="mailto:help@slidy.ai">help@slidy.ai</a>
+              </p>
+              <p class="footer-clue desktop-block">
+                © 2025 Slidy AI. Все права защищены
+              </p>
+            </div>
+            <div class="footer-column footer-nav-column G-align-center">
+              <nav class="footer-nav">
+                <ul>
+                  <li>
+                    <a href="#">Договор оферты</a>
+                  </li>
+                  <li>
+                    <a href="#">Политика конфиденциальности</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="footer-links G-align-start">
+                <a href="">
+                  <img
+                    loading="lazy"
+                    data-src="photo.png"
+                    src="assets/images/telegram.png"
+                    alt="photo"
+                  />
+                </a>
+
+                <a href="">
+                  <img
+                    loading="lazy"
+                    data-src="photo.png"
+                    src="assets/images/vk.png"
+                    alt="photo"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="footer-clue mobile-block">
+              © 2025 Slidy AI. Все права защищены
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
