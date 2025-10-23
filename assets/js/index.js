@@ -48,11 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
-
-
 });
-
-
 
 
 function toggleActiveState(item) {
@@ -93,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     },
     {
-      threshold: 0.15, // элемент виден на 15%
+      threshold: 0.15, 
     }
   );
 
