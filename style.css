@@ -272,6 +272,38 @@ body {
   --border2: #fafdffb2;
 }
 
+
+.fade-left,
+.fade-right,
+.fade-top,
+.fade-bottom {
+   opacity: 0;
+  transform: translate3d(0, 0, 0);
+  transition-property: transform, opacity;
+  transition-duration: 2s; 
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1); 
+  will-change: transform, opacity;
+}
+
+.fade-left {
+  transform: translateX(-60px);
+}
+.fade-right {
+  transform: translateX(60px);
+}
+.fade-top {
+  transform: translateY(-60px);
+}
+.fade-bottom {
+  transform: translateY(60px);
+}
+
+.show {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -306,7 +338,7 @@ main {
   font-size: 16px;
   line-height: 22px;
   gap: 15px;
-  transition: 0.4s;
+  transition: 0.8s;
 }
 
 .btn-start:hover {
@@ -419,7 +451,7 @@ header.moved .header-body {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  transition: 0.5s;
+  transition: 0.6s;
   color: var(--text-color);
   background: transparent;
 }
@@ -431,7 +463,7 @@ header.moved .header-body {
   line-height: 22px;
   color: var(--text-color2);
   border-radius: 6px;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 .btn-register:hover {
   background: var(--text-color);
