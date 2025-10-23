@@ -642,7 +642,7 @@ header.moved .header-body {
   margin: 25px auto 0;
 }
 .generate-info {
-  max-width: 338px;
+  max-width: 330px;
   width: 100%;
 }
 .generate-info-header {
@@ -1152,10 +1152,9 @@ header.moved .header-body {
   .header-tools {
     gap: 15px;
   }
-  .header-switch {
-    gap: 10px;
+   .header-switch {
+    display: none;
   }
-
   .btn-login {
     padding: 11px 12px;
     font-size: 14px;
@@ -1360,7 +1359,5 @@ header.moved .header-body {
 }
 
 @media (max-width: 400px) {
-  .header-switch {
-    display: none;
-  }
+
 }
