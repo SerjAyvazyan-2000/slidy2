@@ -163,6 +163,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: "Inter", sans-serif;
+    font-display: swap;
+
   background: var(--bg-color);
 }
 
