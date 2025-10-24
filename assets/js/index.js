@@ -35,22 +35,6 @@ function updateImages(theme) {
   });
 }
 
-const lightBtn = document.querySelector(".icon-light-switch");
-const darkBtn = document.querySelector(".icon-dark-switch");
-
-darkBtn.addEventListener("click", () => {
-  document.documentElement.setAttribute("data-theme", "dark");
-  updateImages("dark");
-});
-
-lightBtn.addEventListener("click", () => {
-  document.documentElement.setAttribute("data-theme", "light");
-  updateImages("light");
-});
-
-
-
-
 
 
 
