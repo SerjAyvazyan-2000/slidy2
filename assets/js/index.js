@@ -1,3 +1,15 @@
+ const macy = Macy({
+    container: '.reviews-items',
+    margin: 12,
+    columns: 3,
+    breakAt: {
+      1100: 2,
+      768: 1,
+    }
+  });
+
+
+
 const header = document.querySelector("header");
 window.addEventListener("scroll", function () {
   const headerTop = document.querySelector("header");
@@ -38,17 +50,14 @@ lightBtn.addEventListener("click", () => {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    let elem = document.querySelector('.reviews-items');
-    let msnry = new Masonry( elem, {
-        itemSelector: '.reviews-item',
-        columnWidth: 10,
-        gutter: 20,
-        percentPosition: true,
 
-    });
 
-});
+
+
+
+
+
+
 
 
 function toggleActiveState(item) {
