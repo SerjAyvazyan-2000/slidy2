@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://slidy2.ai",
+      "destination": "https://slidy.ai/",
       "permanent": true
     }
   ]
