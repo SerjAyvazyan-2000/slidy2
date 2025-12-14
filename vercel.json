@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://slidy2.ai",
+      "permanent": true
+    }
+  ]
+}
